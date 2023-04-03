@@ -1,4 +1,4 @@
-const API_PATH = 'http://api:5000/Mercadoria'
+const API_PATH = `${API_URL}/Mercadoria`
 
 const headers = new Headers();
 headers.append('Accept', 'application/json')

@@ -1,4 +1,4 @@
-FROM node:16-alpine 
+FROM node:18-alpine 
 
 WORKDIR /app
 
@@ -18,6 +18,6 @@ RUN npm run build
 
 # ENV NODE_ENV production
 
-EXPOSE 80
+EXPOSE 3000
 
 CMD [ "npx", "serve", "-s", "build" ]

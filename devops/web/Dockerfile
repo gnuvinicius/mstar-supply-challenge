@@ -6,7 +6,7 @@ RUN apk add --no-cache git
 
 RUN git clone https://github.com/gnuvinicius/mstar-supply-challenge.git
 
-WORKDIR /app/mstar-supply-challenge/mstarsupply-web
+WORKDIR /app/mstar-supply-challenge/mstarsupplyweb
 
 # COPY . .
 

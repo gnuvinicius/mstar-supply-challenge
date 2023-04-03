@@ -3,6 +3,7 @@ import './App.css';
 import Main from './pages/Main';
 import EntradaSaidaForm from './pages/EntradaSaida';
 import Mercadoria from './pages/Mercadoria';
+import Fabricante from './pages/Fabricante';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
                 <Route Component={ Main } path="/" exact />
                 <Route Component={ EntradaSaidaForm } path="/entrada-saida" />
                 <Route Component={ Mercadoria } path="/mercadoria" />
+                <Route Component={ Fabricante } path="/fabricante" />
             </Routes>
         </BrowserRouter>
     </div>

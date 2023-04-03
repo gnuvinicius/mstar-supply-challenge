@@ -28,3 +28,7 @@ export function registraEntradaSaida(registro) {
 export function cadastraMercadoria(mercadoria) {
     return fetch(`${API_PATH}/CadastraMercadoria`, { method: 'POST', body: JSON.stringify(mercadoria), headers: headers })
 }
+
+export function cadastraFabricante(fabricante) {
+    return fetch(`${API_PATH}/CadastraFabricante`, { method: 'POST', body: JSON.stringify(fabricante), headers: headers })
+}

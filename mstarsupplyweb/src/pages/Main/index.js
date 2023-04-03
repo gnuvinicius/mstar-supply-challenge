@@ -55,7 +55,7 @@ export default function Main() {
           <Control>
             <Button onClick={() => navigate('/entrada-saida')}>nova entrada/saída</Button>
             <Button onClick={() => navigate('/mercadoria')} >nova mercadoria</Button>
-            <Button>adicionar fabricante</Button>
+            <Button onClick={() => navigate('/fabricante')}>adicionar fabricante</Button>
           </Control>
           
           <div>

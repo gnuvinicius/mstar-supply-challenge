@@ -6,7 +6,7 @@ services:
     environment:
       POSTGRES_DB: "mstar_supply_db"
       POSTGRES_USER: "mstar_supply"
-      POSTGRES_PASSWORD: ""
+      POSTGRES_PASSWORD: "123456"
       ALLOW_EMPTY_PASSWORD: "no"
     ports:
       - "5432:5432"
@@ -16,7 +16,7 @@ services:
     image: dpage/pgadmin4
     environment:
       PGADMIN_DEFAULT_EMAIL: "root@mstar.dev"
-      PGADMIN_DEFAULT_PASSWORD: ""
+      PGADMIN_DEFAULT_PASSWORD: "123456"
     ports:
       - "16543:80"
     depends_on:

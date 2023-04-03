@@ -1,4 +1,4 @@
-const API_PATH = `${API_URL}/Mercadoria`
+const API_PATH = `${process.env.API_URL}/Mercadoria`
 
 const headers = new Headers();
 headers.append('Accept', 'application/json')

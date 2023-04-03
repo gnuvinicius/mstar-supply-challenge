@@ -1,4 +1,4 @@
-const API_PATH = `Mercadoria`
+const API_PATH = `${process.env.REACT_APP_API_KEY}/Mercadoria`
 
 const headers = new Headers();
 headers.append('Accept', 'application/json')

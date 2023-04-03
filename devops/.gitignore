@@ -1,4 +1,3 @@
 .vagrant
 *.log
 *docker-compose.yml
-*Dockerfile
